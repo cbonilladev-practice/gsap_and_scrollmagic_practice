@@ -1,0 +1,50 @@
+$theBeige: #ffe5bd;
+
+.container {
+	width: 400%;
+	height: 100vh;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.panel {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+
+  body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+  }
+
+  .dos {
+	  background-color: $theBeige;
+	  h1 {
+		  color: black;
+	  }
+  }
+
+  .arriba {
+	background-color: $theBeige;
+	h1 {
+		color: black;
+	}
+}

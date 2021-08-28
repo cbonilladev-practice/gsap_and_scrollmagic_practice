@@ -29,14 +29,17 @@ const AnimateText = () => {
 		gsap.to(boxes.current.children, {
 			x: "75vw",
 			rotation: 360,
-			duration: 3,
+			duration: 5,
 			delay: 0.5,
 			ease: "bounce",
 			stagger: 0.5,
 			scrollTrigger: {
 				trigger: dbox.current.children,
+				start: "center",
+				toggleActions: "restart none none none",
 				markers: {startColor: "white", endColor: "white", fontSize: "24px"},
-				scrub: true
+				// Enable scroll-based animation.
+				scrub: 1
 			}
 		})
 

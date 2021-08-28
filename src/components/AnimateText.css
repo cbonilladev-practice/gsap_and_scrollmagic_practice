@@ -44,7 +44,7 @@ button {
 	cursor: pointer;
 }
 
-h1 {
+h1 span{
 	font-family: 'Oswald';
 	text-transform: uppercase;
 	position: relative;
